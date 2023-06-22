@@ -14,7 +14,7 @@ function handleChange(event){
             <button onClick={()=>{
                 props.onAdd(text);
                 setText("");
-            }}>
+            }}> 
             <span>Add</span>
             </button>
       </div>
